@@ -10,10 +10,6 @@
     flex-direction: row;
     gap: 2em;
   }
-  
-  .header a {
-    text-decoration: none;
-  }
 
   @media (max-width: 600px) {
     .header {
