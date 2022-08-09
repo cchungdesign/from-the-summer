@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-block: 2em;
+    padding: 1em 0;
   }
   
   .navbar {
@@ -14,7 +14,7 @@
   @media (max-width: 600px) {
     .header {
       flex-direction: column;
-      gap: 2em;
+      gap: 2em
     }
     .navbar {
       flex-direction: column;
