@@ -16,10 +16,9 @@ export default function Home() {
         <h1 className={styles.title}>
           postcards from the summer
         </h1>
-
-        <p className={styles.description}>
-          a collection of creative pieces and curated works
-        </p>
+        <div className={styles.gallery}>
+          <Image src="/../public/photography/DSCF3301.jpeg" width="4000" height="6000" />
+        </div>
       </main>
     </Layout>
   )

@@ -21,5 +21,9 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #8C8181;
+  color: goldenrod;
+}
+
+p {
+  max-width: 600px;
 }
