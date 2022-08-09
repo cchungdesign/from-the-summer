@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 2em;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+  
+  .header a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      gap: 2em;
+    }
+    .navbar {
+      flex-direction: column;
+      gap: 2em;
+    }
+  }

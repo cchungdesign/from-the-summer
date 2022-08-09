@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
