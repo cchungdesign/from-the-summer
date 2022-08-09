@@ -5,7 +5,10 @@ import Layout from '../components/layout.js';
 export default function About() {
     return (
         <Layout>
-            <p>a collection of creative works from 2021-2022 exploring summer, slice of life, warmth, and the ephemeral moments of youth.</p>
+            <h3>from the summer, 2021-2022</h3>
+            <p>a collection of creative works from exploring summer, slice of life, warmth, and the ephemeral moments of youth.</p>
+            <br/>
+            <p>chris chung</p>
             <a href="mailto:cchungdesign@gmail.com">cchungdesign@gmail.com</a>
         </Layout>
     )
