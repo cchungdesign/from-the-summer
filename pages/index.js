@@ -17,7 +17,7 @@ export default function Home() {
           from the summer
         </h1> */}
         <div className={styles.gallery}>
-          <Image src="/../public/photography/DSCF3301.jpeg" width="4000" height="6000" />
+          <Image src="/photography/DSCF3301.jpeg" width="4000" height="6000" />
         </div>
       </main>
     </Layout>

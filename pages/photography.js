@@ -10,12 +10,12 @@ export default function Photography() {
                 <title>photography</title>
             </Head>
             <div className={styles.gallery}>
-                <Image src="/../public/photography/DSCF3301.jpeg" width="4000" height="6000" />
-                <Image src="/../public/photography/DSCF2334.jpeg" width="4000" height="6000" />
-                <Image src="/../public/photography/DSCF2340.jpeg" width="5839" height="3893" />
-                <Image src="/../public/photography/DSCF5705.jpeg" width="4000" height="6000" />
-                <Image src="/../public/photography/DSCF5710.jpeg" width="4000" height="6000" />
-                <Image src="/../public/photography/DSCF5717.jpeg" width="4000" height="6000" />
+                <Image src="/photography/DSCF3301.jpeg" width="4000" height="6000" />
+                <Image src="/photography/DSCF2334.jpeg" width="4000" height="6000" />
+                <Image src="/photography/DSCF2340.jpeg" width="5839" height="3893" />
+                <Image src="/photography/DSCF5705.jpeg" width="4000" height="6000" />
+                <Image src="/photography/DSCF5710.jpeg" width="4000" height="6000" />
+                <Image src="/photography/DSCF5717.jpeg" width="4000" height="6000" />
             </div>
         </Layout>
     )
