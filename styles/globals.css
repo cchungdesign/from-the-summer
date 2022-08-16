@@ -18,12 +18,6 @@ a {
   box-sizing: border-box;
 }
 
-a:hover,
-a:focus,
-a:active {
-  color: goldenrod;
-}
-
 p {
   max-width: 600px;
 }
