@@ -3,6 +3,11 @@ import Image from 'next/image'
 import Layout from '../components/layout.js';
 import styles from '../components/gallery.module.css';
 
+import by_the_ocean from '../public/illustration/by-the-ocean.jpeg'
+import pearl_of_the_sea from '../public/illustration/pearl-of-the-sea.jpeg'
+import hermosa_beach from '../public/illustration/hermosa-beach.jpeg'
+import santa_cruz_portrait from '../public/illustration/santa cruz portrait.jpg'
+
 export default function Illustration() {
     return (
         <Layout>
@@ -10,10 +15,10 @@ export default function Illustration() {
                 <title>illustration</title>
             </Head>
             <div className={styles.gallery}>
-                <Image src="/illustration/by-the-ocean.jpeg" alt="by the ocean" width="2480" height="3508" />
-                <Image src="/illustration/pearl-of-the-sea.jpeg" alt="pearl of the sea" width="2480" height="3508" />
-                <Image src="/illustration/hermosa-beach.jpeg" alt="hermosa beach" width="1200" height="1600" />
-                <Image src="/illustration/santa cruz portrait.jpg" alt="santa cruz portrait" width="2480" height="3508" />
+                <Image src={by_the_ocean} alt="by the ocean" />
+                <Image src={pearl_of_the_sea} alt="pearl of the sea" />
+                <Image src={hermosa_beach} alt="hermosa beach" />
+                <Image src={santa_cruz_portrait} alt="santa cruz portrait" />
             </div>
         </Layout>
     )

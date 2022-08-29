@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../components/home.module.css'
 import Layout from '../components/layout.js';
 
+import DSCF3301 from '../public/photography/DSCF3301.jpeg'
+
 export default function Home() {
   return (
     <Layout>
@@ -17,7 +19,7 @@ export default function Home() {
           from the summer
         </h1> */}
         <div className={styles.gallery}>
-          <Image src="/photography/DSCF3301.jpeg" width="4000" height="6000" />
+          <Image src={DSCF3301} />
         </div>
       </main>
     </Layout>
